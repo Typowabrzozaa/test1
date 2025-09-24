@@ -1,16 +1,31 @@
-# React + Vite
+# Strona Internetowa dla Firmy Tranzwik
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To jest repozytorium kodu dla nowej strony internetowej firmy Tranzwik, zbudowanej przy użyciu nowoczesnych technologii webowych (React, Vite, Tailwind CSS).
 
-Currently, two official plugins are available:
+## Wymagania
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Do uruchomienia projektu potrzebny jest [Node.js](https://nodejs.org/) (wersja 18.x lub nowsza).
 
-## React Compiler
+## Instalacja
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  Sklonuj repozytorium na swój lokalny komputer.
+2.  Przejdź do głównego folderu projektu w terminalu.
+3.  Zainstaluj wszystkie potrzebne zależności za pomocą poniższej komendy:
 
-## Expanding the ESLint configuration
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Uruchamianie serwera deweloperskiego
+
+Po zainstalowaniu zależności możesz uruchomić lokalny serwer deweloperski. Serwer będzie automatycznie odświeżał stronę po każdej zmianie w kodzie.
+
+1.  W głównym folderze projektu uruchom następującą komendę:
+
+    ```bash
+    npm run dev
+    ```
+
+2.  Otwórz przeglądarkę internetową i wejdź na adres [http://localhost:5173](http://localhost:5173) (lub inny adres, który pojawi się w Twoim terminalu).
+
+Teraz powinieneś zobaczyć działającą stronę internetową.
