@@ -78,7 +78,7 @@ const Services = () => {
           {services.map((service) => (
             <motion.div
               key={service.name}
-              className="bg-white p-8 rounded-lg border border-gray-200 hover:shadow-2xl hover:border-brand-blue transition-all duration-300"
+              className="bg-brand-lightblue p-8 rounded-lg border border-gray-200 hover:shadow-2xl hover:border-brand-blue transition-all duration-300"
               variants={cardVariants}
             >
               <div className="text-5xl mb-6">{service.icon}</div>
