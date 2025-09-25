@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizacja: Nowoczesne Domy - Tranzwik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-blue-600">
+                    <a href="index.html">Tranzwik</a>
+                </div>
+                <nav class="hidden md:flex">
+                    <ul class="flex items-center space-x-8">
+                        <li><a href="index.html#uslugi" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Usługi</a></li>
+                        <li><a href="index.html#o-nas" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">O nas</a></li>
+                        <li><a href="index.html#realizacje" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Realizacje</a></li>
+                        <li><a href="index.html#kontakt" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <nav id="mobile-menu" class="hidden md:hidden pb-4">
+                <ul class="flex flex-col items-center space-y-4">
+                    <li><a href="index.html#uslugi" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Usługi</a></li>
+                    <li><a href="index.html#o-nas" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">O nas</a></li>
+                    <li><a href="index.html#realizacje" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Realizacje</a></li>
+                    <li><a href="index.html#kontakt" class="text-gray-600 hover:text-blue-600 font-semibold transition duration-300">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-20 md:py-28">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Realizacja: Nowoczesne Domy</h1>
+                <p class="text-lg text-gray-600">Zobacz galerię zdjęć z naszych realizacji budowy domów jednorodzinnych, łączących nowoczesny design z funkcjonalnością.</p>
+                <a href="index.html#realizacje" class="text-blue-600 hover:underline mt-4 inline-block">&larr; Powrót do wszystkich realizacji</a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1974&auto=format&fit=crop" alt="Nowoczesny dom 1" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Nowoczesny dom 2" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=2070&auto=format&fit=crop" alt="Nowoczesny dom 3" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+                <img src="https://images.unsplash.com/photo-1605276374104-5de67d216b8a?q=80&w=2070&auto=format&fit=crop" alt="Nowoczesny dom 4" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop" alt="Nowoczesny dom 5" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+                <img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=2070&auto=format&fit=crop" alt="Nowoczesny dom 6" class="w-full h-80 object-cover rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2">
+                    <h3 class="text-2xl font-bold mb-4">Tranzwik</h3>
+                    <p class="text-gray-400 leading-relaxed max-w-md">Dostarczamy kompleksowe rozwiązania w zakresie budownictwa, nowoczesnych instalacji i odnawialnych źródeł energii. Nasze doświadczenie to gwarancja Twojego zadowolenia.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Nawigacja</h4>
+                    <ul>
+                        <li class="mb-2"><a href="index.html#home" class="hover:text-blue-600 transition-colors">Strona Główna</a></li>
+                        <li class="mb-2"><a href="index.html#uslugi" class="hover:text-blue-600 transition-colors">Usługi</a></li>
+                        <li class="mb-2"><a href="index.html#o-nas" class="hover:text-blue-600 transition-colors">O nas</a></li>
+                        <li class="mb-2"><a href="index.html#realizacje" class="hover:text-blue-600 transition-colors">Realizacje</a></li>
+                        <li class="mb-2"><a href="index.html#kontakt" class="hover:text-blue-600 transition-colors">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Kontakt</h4>
+                    <p class="text-gray-400 mb-2">ul. Budowlana 1<br/>00-001 Warszawa</p>
+                    <p class="text-gray-400 mb-2">biuro@tranzwik.com</p>
+                    <p class="text-gray-400">+48 123 456 789</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-900 py-4">
+            <div class="container mx-auto px-4 text-center text-gray-500">
+                <p>&copy; 2025 Tranzwik. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let i = 0; i < mobileMenuLinks.length; i++) {
+            mobileMenuLinks[i].addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
